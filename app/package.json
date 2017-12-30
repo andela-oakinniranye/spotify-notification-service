@@ -1,0 +1,25 @@
+{
+  "name": "spotify-notification-service",
+  "version": "1.0.0",
+  "description": "A little service that registers and pushes notifications to the webhooks registered by a user",
+  "main": "index.js",
+  "repository": "github.com/andela-oakinniranye/spotify-notification-service",
+  "author": "Oreoluwa <oreoluwa@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "sequelize": "node_modules/.bin/sequelize"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "glob": "^7.1.2",
+    "jsonwebtoken": "^8.1.0",
+    "pg": "^7.4.0",
+    "request": "^2.83.0",
+    "sequelize": "^4.28.6",
+    "sequelize-cli": "^3.2.0",
+    "umzug-sync": "^1.0.0",
+    "uuid": "^3.1.0"
+  }
+}
